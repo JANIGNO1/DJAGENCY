@@ -1,5 +1,5 @@
-const SUPABASE_URL = "https://vmllowldjzwmzsvxccui.supabase.co";
-const SUPABASE_KEY = "sb_publishable_4_cDtsB6pZJHW-2dQW8NHQ_LQhpCn1Q";
+const SUPABASE_URL = "https://ihzeublpzckrvwpjylkq.supabase.co";
+const SUPABASE_KEY = "sb_publishable_yQj0haLvJLt2EMIDMQCoEw_JT68uQC7";
 const adminLoginForm = document.getElementById("adminLoginForm");
 const loginMessage = document.getElementById("loginMessage");
 
@@ -38,8 +38,8 @@ adminLoginForm.addEventListener("submit", async function (e) {
                 "Invalid email or password.";
             return;
         }
-        // Only FH EMPIRE admin account is allowed
-if (data.user?.email?.toLowerCase() !== "fhempire.official@gmail.com") {
+        // Only DJ OFFICIAL admin account is allowed
+if (data.user?.email?.toLowerCase() !== "Danishdjofficial@gmail.com") {
     loginMessage.className = "login-error";
     loginMessage.textContent = "Access denied. Admin account required.";
     return;
