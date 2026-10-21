@@ -1,5 +1,5 @@
-const SUPABASE_URL = "https://vmllowldjzwmzsvxccui.supabase.co/rest/v1/";
-const SUPABASE_KEY = "sb_publishable_4_cDtsB6pZJHW-2dQW8NHQ_LQhpCn1Q";
+const SUPABASE_URL = "https://ihzeublpzckrvwpjylkq.supabase.co/rest/v1/";
+const SUPABASE_KEY = "sb_publishable_yQj0haLvJLt2EMIDMQCoEw_JT68uQC7";
 const menuToggle = document.getElementById("menuToggle");
 const navLinks = document.getElementById("navLinks");
 
