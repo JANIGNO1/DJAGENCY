@@ -1,5 +1,5 @@
-const SUPABASE_URL = "https://vmllowldjzwmzsvxccui.supabase.co";
-const SUPABASE_KEY = "sb_publishable_4_cDtsB6pZJHW-2dQW8NHQ_LQhpCn1Q";
+const SUPABASE_URL = "https://ihzeublpzckrvwpjylkq.supabase.co";
+const SUPABASE_KEY = "sb_publishable_yQj0haLvJLt2EMIDMQCoEw_JT68uQC7";
 
 const accessToken = localStorage.getItem("fh_admin_access_token");
 
@@ -309,8 +309,8 @@ async function completeOrder(orderId) {
 }
 }
 logoutBtn.addEventListener("click", function () {
-    localStorage.removeItem("fh_admin_access_token");
-    localStorage.removeItem("fh_admin_refresh_token");
+    localStorage.removeItem("dj_admin_access_token");
+    localStorage.removeItem("dj_admin_refresh_token");
 
     window.location.href = "login.html";
 });
@@ -319,7 +319,7 @@ logoutBtn.addEventListener("click", function () {
 ========================================= */
 
 
-const VAPID_PUBLIC_KEY = "BJdm1LjY9h2kVkB4U1ybIispwPpWQPZ6xlM3E_hfymiijjYy2lXVA1Xm0EjTXPn7R5EevbQRGPm3qsx8GojglbE";
+const VAPID_PUBLIC_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImloemV1YmxwemNrcnZ3cGp5bGtxIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTI1MjgxOTgsImV4cCI6MjEwODEwNDE5OH0.Jfw6GFqWqtMBSZsFs4wbXUFTLuGLOXx49Oe9cREj9N4";
 function urlBase64ToUint8Array(base64String) {
     const padding = "=".repeat((4 - base64String.length % 4) % 4);
     const base64 = (base64String + padding)
